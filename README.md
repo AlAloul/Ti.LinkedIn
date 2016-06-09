@@ -26,4 +26,10 @@ These are entry in you tiapp.xml:
 ~~~
 <property name="linkedin_id" type="string">7798****xfs</property>
 <property name="linkedin_secret" type="string">wqApS***54G8Ky</property>
+
+/* optional*/
+<property name="linkedin_redirecturl" type="string">https://upload.wikimedia.org/wikipedia/en/b/b1/Portrait_placeholder.png</property>
+
 ~~~
+
+![]()
