@@ -19,6 +19,11 @@ LinkedIn.getProfile('me', function(_e) {
 });
 ~~~
 
+You will get a result liek this: 
+
+
+![](https://raw.githubusercontent.com/AppWerft/Ti.LinkedIn/master/documentation/res.png)
+
 More getter are: getPositionById(), getCompanyById, postShare(), getProfileWithContacts();
 
 For all request you need scopes (see documentation). As allowed redirect_uri you must add  'https://upload.wikimedia.org/wikipedia/en/b/b1/Portrait_placeholder.png'. This is dirty workeround, because LinkedIn doesn't support oob.
