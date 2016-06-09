@@ -19,7 +19,7 @@ LinkedIn.getProfile('me', function(_e) {
 });
 ~~~
 
-You will get a result liek this: 
+You will get a result like this: 
 
 
 ![](https://raw.githubusercontent.com/AppWerft/Ti.LinkedIn/master/documentation/res.png)
