@@ -32,4 +32,6 @@ These are entry in you tiapp.xml:
 
 ~~~
 
-![]()
+You need these entries:
+
+![](https://raw.githubusercontent.com/AppWerft/Ti.LinkedIn/master/documentation/screen.png)
