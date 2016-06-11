@@ -9,6 +9,8 @@ If you need some extends, please free and contact me ![](https://avatars.slack-e
 
 If the sponsor paid  the support I will open the sources.
 
+Similar module is [Ti.SignInWith](https://github.com/AppWerft/Ti.SignInWith). With t his module you have a generic adapter for login to identity providers.
+
 Usage
 -----
 
