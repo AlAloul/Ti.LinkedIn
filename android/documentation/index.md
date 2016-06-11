@@ -1,39 +1,44 @@
-# tilinkedin Module
+Ti.LinkedIn
+===========
 
-## Description
+This is a module for getting some infos from LinkedInportal. With it you can also share to profile.
+Oauth2.0 is included. You need appId and appSecret. Both must be added to tiapp.xml as String property
 
-TODO: Enter your module description here
+Thanks to @andreav ![](https://ti-slack.slack.com/team/andreav) for help and @thijsalbers ![](https://ti-slack.slack.com/team/thijsalbers) for sponsoring. If you need some extends, please free and contact me.
 
-## Accessing the tilinkedin Module
+Usage
+-----
 
-To access this module from JavaScript, you would do the following:
+It is a very simple API:
 
-    var tilinkedin = require("de.appwerft.linkedin");
+~~~
 
-The tilinkedin variable is a reference to the Module object.
+var LinkedIn = require('de.appwerft.linkedin');
+LinkedIn.getProfile('me', function(_e) {
+    alert(_e.data);
+});
+~~~
 
-## Reference
+You will get a result like this: 
 
-TODO: If your module has an API, you should document
-the reference here.
 
-### tilinkedin.function
+![](https://raw.githubusercontent.com/AppWerft/Ti.LinkedIn/master/documentation/res.png)
 
-TODO: This is an example of a module function.
+More getter are: getPositionById(), getCompanyById, postShare(), getProfileWithContacts();
 
-### tilinkedin.property
+For all request you need scopes (see documentation). As allowed redirect_uri you must add  'https://upload.wikimedia.org/wikipedia/en/b/b1/Portrait_placeholder.png'. This is dirty workeround, because LinkedIn doesn't support oob.
 
-TODO: This is an example of a module property.
+These are entry in you tiapp.xml:
 
-## Usage
+~~~
+<property name="linkedin_id" type="string">7798****xfs</property>
+<property name="linkedin_secret" type="string">wqApS***54G8Ky</property>
 
-TODO: Enter your usage example here
+/* optional*/
+<property name="linkedin_redirecturl" type="string">https://upload.wikimedia.org/wikipedia/en/b/b1/Portrait_placeholder.png</property>
 
-## Author
+~~~
 
-TODO: Enter your author name, email and other contact
-details you want to share here.
+You need these entries:
 
-## License
-
-TODO: Enter your license/legal information here.
+![](https://raw.githubusercontent.com/AppWerft/Ti.LinkedIn/master/documentation/screen.png)

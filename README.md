@@ -4,7 +4,8 @@ Ti.LinkedIn
 This is a module for getting some infos from LinkedInportal. With it you can also share to profile.
 Oauth2.0 is included. You need appId and appSecret. Both must be added to tiapp.xml as String property
 
-Thanks to @andreav ![](https://avatars.slack-edge.com/2015-07-04/7233019188_622d59713626a983b56b_72.jpg) for help and @thijsalbers ![](https://avatars.slack-edge.com/2015-04-20/4510904794_574b4fad6e645367febc_72.jpg) for sponsoring. If you need some extends, please free and contact me ![](https://avatars.slack-edge.com/2016-06-02/47624811367_cad17b312a9a5aa65338_72.jpg).
+Thanks to @andreav ![](https://avatars.slack-edge.com/2015-07-04/7233019188_622d59713626a983b56b_72.jpg) for help.
+If you need some extends, please free and contact me ![](https://avatars.slack-edge.com/2016-06-02/47624811367_cad17b312a9a5aa65338_72.jpg).
 
 The actual module will be visible next days. ;-)
 

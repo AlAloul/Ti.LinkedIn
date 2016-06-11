@@ -11,7 +11,7 @@ license: Specify your license
 copyright: Copyright (c) 2016 by 
 
 # these should not be edited
-name: linkedin
+name: TiLinkedIn
 moduleid: de.appwerft.linkedin
 guid: a944c698-f8af-41f2-a807-57400e62f214
 platform: iphone
