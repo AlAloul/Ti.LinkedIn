@@ -7,8 +7,6 @@ Oauth2.0 is included. You need appId and appSecret. Both must be added to tiapp.
 Thanks to @andreav ![](https://avatars.slack-edge.com/2015-07-04/7233019188_622d59713626a983b56b_72.jpg) for help.
 If you need some extends, please free and contact me ![](https://avatars.slack-edge.com/2016-06-02/47624811367_cad17b312a9a5aa65338_72.jpg).
 
-If the sponsor paid  the support I will open the sources.
-
 Similar module is [Ti.SignInWith](https://github.com/AppWerft/Ti.SignInWith). With t his module you have a generic adapter for login to identity providers.
 
 Usage
